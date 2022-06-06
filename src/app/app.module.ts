@@ -8,7 +8,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { ReactiveFormsModule } from '@angular/forms';
 import { JsonFormComponent } from './json-form/json-form.component';
 // import { MatCardModule } from '@angular/material';
-// import { IonicModule } from '@ionic/angular';
+import { IonicModule } from '@ionic/angular';
 // import { Events, IonContent } from '@ionic/angular';
 import { CommonModule } from '@angular/common';
 import { MatCardModule } from '@angular/material/card';
@@ -30,7 +30,7 @@ import { MatIconModule } from '@angular/material/icon';
     CommonModule,
     ReactiveFormsModule,
     MatCardModule,
-    // IonicModule,
+     IonicModule,
   ],
   exports: [
     MatCardModule
